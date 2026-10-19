@@ -1,0 +1,1211 @@
+{
+  "common": {
+    "theme": {
+      "fonts": {
+        "primary": "var(--font-poppins), sans-serif",
+        "heading": "var(--font-poppins), sans-serif",
+        "navigation": "var(--font-poppins), sans-serif"
+      }
+    },
+    "metadata": {
+      "title": "BlogSphere | Travel Stories & Inspiration",
+      "description": "BlogSphere shares travel guides, destination stories, local experiences and inspiration for your next adventure.",
+      "icon": "/main logo/logo.webp"
+    },
+    "globalUI": {
+      "breadcrumbSeparator": "/"
+    },
+    "Footer": {
+      "logo": "/main logo/logo.webp",
+      "logoAlt": "BlogSphere travel blog logo",
+      "logoUrl": "/",
+      "copyrightText": "© 2026 BlogSphere Travel Stories. All rights reserved. Powered By Lestow",
+      "quickLinksTitle": "Quick Links",
+      "contactTitle": "Contact Us",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        },
+        {
+          "id": "social-linkedin",
+          "icon": "FaLinkedinIn",
+          "label": "LinkedIn",
+          "url": "https://linkedin.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "quick-about",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "quick-blog",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "quick-blog-details",
+          "label": "Blog Details",
+          "url": "/blog/essential-travel-tips"
+        },
+        {
+          "id": "quick-faqs",
+          "label": "Faqs",
+          "url": "/faqs"
+        },
+        {
+          "id": "quick-contact",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "contactItems": [
+        {
+          "id": "contact-email",
+          "title": "Email",
+          "value": "info@xyz.com",
+          "url": "mailto:info@xyz.com"
+        },
+        {
+          "id": "contact-phone",
+          "title": "Phone",
+          "value": "+1 000000000",
+          "url": "tel:+1000000000"
+        },
+        {
+          "id": "contact-address",
+          "title": "Address",
+          "value": "123 Main St, New York, NY, USA",
+          "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+        }
+      ],
+      "backgroundImage": "/main logo/footer_bg.webp",
+      "description": "Your go-to travel blog for destination guides, travel tips, immersive experiences and inspiring stories from around the world."
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "bgImage": "",
+      "paths": [
+        {
+          "id": "breadcrumb-about-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-about-current",
+          "label": "About Us"
+        }
+      ]
+    },
+    "faqsBreadcrumb": {
+      "title": "Faqs",
+      "bgImage": "",
+      "paths": [
+        {
+          "id": "breadcrumb-faqs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-faqs-current",
+          "label": "Faqs"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "bgImage": "",
+      "paths": [
+        {
+          "id": "breadcrumb-contact-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-contact-current",
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "blogsBreadcrumb": {
+      "title": "Our Blog",
+      "bgImage": "",
+      "paths": [
+        {
+          "id": "breadcrumb-blogs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blogs-current",
+          "label": "Our Blog"
+        }
+      ]
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blog Details",
+      "bgImage": "",
+      "paths": [
+        {
+          "id": "breadcrumb-blog-detail-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blog-detail-current",
+          "label": "Blog Details"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "Portfolio": {
+      "sections": {
+        "TopBar": {
+          "variants": {}
+        },
+        "Header": {
+          "variants": {
+            "PortfolioHeader1": {
+              "logo": "/main logo/logo.webp",
+              "logoAlt": "BlogSphere travel blog",
+              "logoUrl": "/",
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-blog",
+                  "label": "Blog",
+                  "url": "/blog"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-faqs",
+                  "label": "Faqs",
+                  "url": "/faqs"
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu",
+              "socialLinks": [
+                {
+                  "id": "header-social-facebook",
+                  "icon": "FaFacebookF",
+                  "label": "Facebook",
+                  "url": "https://facebook.com"
+                },
+                {
+                  "id": "header-social-instagram",
+                  "icon": "FaInstagram",
+                  "label": "Instagram",
+                  "url": "https://instagram.com"
+                },
+                {
+                  "id": "header-social-youtube",
+                  "icon": "FaYoutube",
+                  "label": "YouTube",
+                  "url": "https://youtube.com"
+                },
+                {
+                  "id": "header-social-linkedin",
+                  "icon": "FaLinkedinIn",
+                  "label": "LinkedIn",
+                  "url": "https://linkedin.com"
+                }
+              ]
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "PortfolioHero1": {
+              "brandLogo": "/main logo/logo.webp",
+              "brandLogoAlt": "BlogSphere - Ideas, Stories, Inspiration",
+              "titleLine1": "TRAVEL",
+              "highlightedTitle": "BLOG",
+              "description": "Discover breathtaking destinations, hidden gems and travel tips for your next adventure.",
+              "buttonText": "Explore More",
+              "buttonUrl": "/blog",
+              "imageLeft": "/banner/b2.webp",
+              "imageLeftAlt": "Overwater villas above a clear tropical sea",
+              "imageRight": "/banner/b1.webp",
+              "imageRightAlt": "Santorini homes overlooking the Aegean Sea"
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "PortfolioAboutUs1": {
+              "subtitle": "About Me",
+              "titleLine1": "Hi, I'm Alex — A Travel",
+              "highlightedTitle": "Blogger & Storyteller",
+              "description": "I'm a passionate traveler, explorer and content creator who loves discovering new places, cultures and experiences. Through this blog, I share real travel stories, destination guides, tips and inspiration to help you plan your next adventure with confidence.",
+              "imageMain": "/about/4.jpg",
+              "imageMainAlt": "Traveler exploring a mountain destination with a camera",
+              "descriptionSecondary": "From hidden gems to popular destinations, I focus on authentic experiences, practical travel advice and captivating stories that bring each place to life. My goal is to inspire you to explore the world, step out of your comfort zone and create unforgettable memories.",
+              "stats": [
+                {
+                  "id": "about-stat-destinations",
+                  "value": "50+",
+                  "label": "Destinations"
+                },
+                {
+                  "id": "about-stat-stories",
+                  "value": "200+",
+                  "label": "Travel Stories"
+                },
+                {
+                  "id": "about-stat-years",
+                  "value": "5+",
+                  "label": "Years of Exploring"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "PortfolioFaq1": {
+              "subtitle": "Frequently Asked Questions",
+              "title1": "Got Questions?\nWe've Got",
+              "highlightedTitle": "Answers",
+              "description": "Find answers to common questions about travel planning, destinations, blogging and how BlogSphere can help you make the most of your journeys.",
+              "expandLabel": "Expand answer",
+              "collapseLabel": "Collapse answer",
+              "items": [
+                {
+                  "id": "faq-travel-content",
+                  "question": "What kind of travel content do you share?",
+                  "answer": "I share destination guides, travel itineraries, personal travel stories, budget tips, packing guides, and practical advice to help you plan and enjoy your trips with confidence."
+                },
+                {
+                  "id": "faq-destination-selection",
+                  "question": "How do you choose the destinations you write about?",
+                  "answer": "Destinations are selected for their unique experiences, cultural character, natural beauty and helpful information that travelers can use when planning a visit."
+                },
+                {
+                  "id": "faq-budget-tips",
+                  "question": "Are your travel tips suitable for budget travelers?",
+                  "answer": "Yes. The guides include practical ideas for saving on transport and stays, planning ahead, finding local experiences and making a trip work for different budgets."
+                },
+                {
+                  "id": "faq-bookings",
+                  "question": "Do you provide hotel or tour bookings?",
+                  "answer": "BlogSphere shares travel information and inspiration. We do not directly book hotels or tours, so please confirm availability and booking terms with the provider."
+                },
+                {
+                  "id": "faq-blog-updates",
+                  "question": "How can I stay updated with your latest blog posts?",
+                  "answer": "Visit the Blog page for the latest destination guides, travel stories and tips. New articles are added regularly."
+                },
+                {
+                  "id": "faq-suggest-topic",
+                  "question": "Can I suggest a destination or topic?",
+                  "answer": "Yes. We welcome destination ideas and questions from readers. Use the Contact Us page to send your suggestion."
+                },
+                {
+                  "id": "faq-solo-group",
+                  "question": "Do you travel solo or with a group?",
+                  "answer": "Our stories and guides cover a mix of solo journeys, trips with friends and family travel, with tips that can be adapted to your travel style."
+                },
+                {
+                  "id": "faq-collaborations",
+                  "question": "How can I contact you for collaborations?",
+                  "answer": "Please reach out through the Contact Us page with a short introduction and details about your collaboration idea."
+                },
+                {
+                  "id": "faq-personal-experience",
+                  "question": "Is the information on your blog based on personal experience?",
+                  "answer": "Articles combine travel research, practical planning information and first-hand perspectives where available. Always check current local guidance before traveling."
+                },
+                {
+                  "id": "faq-resources",
+                  "question": "Do you have any travel resources or packing checklists?",
+                  "answer": "Travel guides include practical packing and planning tips to help you prepare. Check each article for resources tailored to its destination or topic."
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "PortfolioBlogs1": {
+              "authorPrefix": "by",
+              "readMoreText": "Read More",
+              "paginationLabel": "Blog pagination",
+              "previousPageText": "Previous",
+              "nextPageText": "Next",
+              "authors": [
+                {
+                  "id": "blog-author-daniel",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/1.webp",
+                  "imageAlt": "BlogSphere blog editor"
+                },
+                {
+                  "id": "blog-author-anita",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/1.webp",
+                  "imageAlt": "BlogSphere blog editor"
+                },
+                {
+                  "id": "blog-author-arjun",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/2.webp",
+                  "imageAlt": "BlogSphere blog editor"
+                },
+                {
+                  "id": "blog-author-sophia",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/3.webp",
+                  "imageAlt": "BlogSphere blog editor"
+                },
+                {
+                  "id": "blog-author-michael",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/4.webp",
+                  "imageAlt": "BlogSphere blog editor"
+                },
+                {
+                  "id": "blog-author-emily",
+                  "name": "admin",
+                  "role": "Wedding Editor",
+                  "image": "/service/7.webp",
+                  "imageAlt": "BlogSphere blog editor"
+                }
+              ],
+              "detail": {
+                "quoteText": "A well-planned trip gives you the freedom to enjoy every moment without unnecessary stress.",
+                "conclusionTitle": "Conclusion",
+                "conclusionText": "With the right planning, a positive mindset and an open heart, every trip can be a smooth and unforgettable experience. Take these tips with you on your next adventure and make room for the moments that make travel memorable.",
+                "sections": [
+                  {
+                    "id": "travel-detail-plan-ahead",
+                    "number": "1",
+                    "title": "Plan Ahead",
+                    "description": "Research your destination, check the best time to visit and learn about local customs. Booking transport and accommodation early can help you avoid last-minute stress and leave more time to enjoy the journey.",
+                    "image": "/blog/blogs7.webp",
+                    "imageAlt": "Turquoise lagoon and tropical island villas"
+                  },
+                  {
+                    "id": "travel-detail-pack-smart",
+                    "number": "2",
+                    "title": "Pack Smart",
+                    "description": "Pack only what you need and keep your luggage light. Choose versatile clothing, carry essentials such as medicine and travel documents, and check the weather before you leave.",
+                    "image": "/blog/blogs5.webp",
+                    "imageAlt": "Boats on Dal Lake with a mountain landscape"
+                  },
+                  {
+                    "id": "travel-detail-stay-safe",
+                    "number": "3",
+                    "title": "Stay Safe",
+                    "description": "Keep copies of important documents, stay aware of your surroundings and follow local guidance. A few simple precautions help you travel with greater peace of mind.",
+                    "image": "/blog/blogs11.webp",
+                    "imageAlt": "Mountain valley in the Kashmir Himalayas"
+                  },
+                  {
+                    "id": "travel-detail-local-culture",
+                    "number": "4",
+                    "title": "Immerse in the Local Culture",
+                    "description": "Travel is more than visiting landmarks. Try local food, learn a few familiar phrases and take time to understand the traditions and everyday life of the people who call the destination home.",
+                    "image": "/blog/blogs9.webp",
+                    "imageAlt": "Golden Temple and its reflection in Amritsar"
+                  },
+                  {
+                    "id": "travel-detail-capture-moments",
+                    "number": "5",
+                    "title": "Capture the Moments",
+                    "description": "Photographs and notes can help you relive your journey and share it with others. Remember to be present too, and respect local people and places when taking pictures.",
+                    "image": "/blog/blogs8.webp",
+                    "imageAlt": "Historic Mumbai waterfront and Gateway of India"
+                  }
+                ],
+                "introText": "Traveling is one of the most rewarding experiences in life. It allows you to explore new places, meet different people, experience diverse cultures and create unforgettable memories. A little planning and preparation can make your journey smoother, safer and more enjoyable. Use these ideas to make the most of your next adventure."
+              },
+              "posts": [
+                {
+                  "id": "top-10-must-visit-destinations",
+                  "category": "Destination",
+                  "title": "Top 10 Must-Visit Destinations for Your Next Vacation",
+                  "description": "Discover the most beautiful places around the world that should be on your travel bucket list. From stunning beaches to breathtaking mountains, these destinations...",
+                  "date": "15 Oct 2026",
+                  "image": "/blog/blogs7.webp",
+                  "imageAlt": "Aerial view of tropical islands and turquoise water",
+                  "url": "/blog/top-10-must-visit-destinations",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Top 10 Must-Visit Destinations for Your Next Vacation",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-top-10-must-visit-destinations-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-top-10-must-visit-destinations-current",
+                        "label": "Top 10 Must-Visit Destinations for Your Next Vacation"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "essential-travel-tips",
+                  "category": "Travel Tips",
+                  "title": "Essential Travel Tips for a Smooth and Stress-Free Trip",
+                  "description": "Planning a trip? Here are some practical travel tips to help you save money, stay safe and make the most of your journey. These simple tips can make a big difference...",
+                  "date": "12 Oct 2026",
+                  "image": "/blog/blog1.webp",
+                  "imageAlt": "A scenic train crossing a mountain viaduct",
+                  "url": "/blog/essential-travel-tips",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Essential Travel Tips for a Smooth and Stress-Free Trip",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-essential-travel-tips-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-essential-travel-tips-current",
+                        "label": "Essential Travel Tips for a Smooth and Stress-Free Trip"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "first-solo-trip",
+                  "category": "Adventure",
+                  "title": "My First Solo Trip: Lessons Learned and Unforgettable Moments",
+                  "description": "My first solo trip was a life-changing experience. From stepping out of my comfort zone to meeting incredible people, here are the biggest lessons I learned...",
+                  "date": "08 Oct 2026",
+                  "image": "/blog/blogs11.webp",
+                  "imageAlt": "Mountain valley along a Himalayan trekking route",
+                  "url": "/blog/first-solo-trip",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "My First Solo Trip: Lessons Learned and Unforgettable Moments",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-first-solo-trip-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-first-solo-trip-current",
+                        "label": "My First Solo Trip: Lessons Learned and Unforgettable Moments"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "experiencing-local-cultures",
+                  "category": "Culture",
+                  "title": "Experiencing Local Cultures: Food, People and Traditions",
+                  "description": "One of the best parts of travel is experiencing different cultures. From local food to unique traditions, here is how immersing yourself in a new culture can make...",
+                  "date": "05 Oct 2026",
+                  "image": "/blog/blogs9.webp",
+                  "imageAlt": "Golden Temple reflected in the water in Amritsar",
+                  "url": "/blog/experiencing-local-cultures",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Experiencing Local Cultures: Food, People and Traditions",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-experiencing-local-cultures-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-experiencing-local-cultures-current",
+                        "label": "Experiencing Local Cultures: Food, People and Traditions"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "complete-beach-holiday-guide",
+                  "category": "Travel Guides",
+                  "title": "A Complete Guide to Planning a Beach Holiday",
+                  "description": "Dreaming of a beach vacation? This complete guide covers everything you need to know, from the best destinations and travel tips to packing essentials and more...",
+                  "date": "01 Oct 2026",
+                  "image": "/blog/blogs7.webp",
+                  "imageAlt": "Overwater villas surrounded by clear turquoise sea",
+                  "url": "/blog/complete-beach-holiday-guide",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "A Complete Guide to Planning a Beach Holiday",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-complete-beach-holiday-guide-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-complete-beach-holiday-guide-current",
+                        "label": "A Complete Guide to Planning a Beach Holiday"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "best-hiking-trails",
+                  "category": "Hiking",
+                  "title": "Best Hiking Trails for Nature Lovers",
+                  "description": "If you love nature and adventure, these hiking trails offer stunning views, fresh air and unforgettable experiences. Explore some of the most scenic trails around the world...",
+                  "date": "28 Sep 2026",
+                  "image": "/blog/blogs11.webp",
+                  "imageAlt": "Green Himalayan valley framed by mountain peaks",
+                  "url": "/blog/best-hiking-trails",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Best Hiking Trails for Nature Lovers",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-best-hiking-trails-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-best-hiking-trails-current",
+                        "label": "Best Hiking Trails for Nature Lovers"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "weekend-city-breaks",
+                  "category": "City Breaks",
+                  "title": "The Best Weekend City Breaks for Curious Travelers",
+                  "description": "Make the most of a short escape with walkable neighborhoods, memorable local meals and a few thoughtful plans that leave room for discovery.",
+                  "date": "24 Sep 2026",
+                  "image": "/blog/blogs8.webp",
+                  "imageAlt": "Gateway of India and historic waterfront in Mumbai",
+                  "url": "/blog/weekend-city-breaks",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "The Best Weekend City Breaks for Curious Travelers",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-weekend-city-breaks-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-weekend-city-breaks-current",
+                        "label": "The Best Weekend City Breaks for Curious Travelers"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "packing-light",
+                  "category": "Travel Tips",
+                  "title": "How to Pack Light for a Two-Week Adventure",
+                  "description": "A flexible packing list, versatile layers and a few smart essentials can make a longer trip easier without weighing down your plans.",
+                  "date": "20 Sep 2026",
+                  "image": "/blog/blogs5.webp",
+                  "imageAlt": "Shikara boats on Dal Lake with mountains in the background",
+                  "url": "/blog/packing-light",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "How to Pack Light for a Two-Week Adventure",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-packing-light-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-packing-light-current",
+                        "label": "How to Pack Light for a Two-Week Adventure"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "hidden-coastal-gems",
+                  "category": "Destinations",
+                  "title": "Hidden Coastal Gems Worth Adding to Your List",
+                  "description": "Find quieter shores, welcoming villages and beautiful viewpoints with these ideas for exploring beyond the most familiar beach destinations.",
+                  "date": "16 Sep 2026",
+                  "image": "/blog/blog3.webp",
+                  "imageAlt": "Clear tropical water and a quiet sandy island beach",
+                  "url": "/blog/hidden-coastal-gems",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Hidden Coastal Gems Worth Adding to Your List",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-hidden-coastal-gems-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-hidden-coastal-gems-current",
+                        "label": "Hidden Coastal Gems Worth Adding to Your List"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "travel-photography-basics",
+                  "category": "Photography",
+                  "title": "Simple Travel Photography Tips for Better Memories",
+                  "description": "Use natural light, thoughtful framing and a little patience to capture the feeling of a place while staying present in the moment.",
+                  "date": "12 Sep 2026",
+                  "image": "/blog/blogs4.webp",
+                  "imageAlt": "India Gate illuminated at dusk in New Delhi",
+                  "url": "/blog/travel-photography-basics",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Simple Travel Photography Tips for Better Memories",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-travel-photography-basics-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-travel-photography-basics-current",
+                        "label": "Simple Travel Photography Tips for Better Memories"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "local-food-guide",
+                  "category": "Food",
+                  "title": "A Traveler?s Guide to Finding the Best Local Food",
+                  "description": "Ask locals, visit busy markets and try regional favorites to discover the flavors and stories that make each destination unique.",
+                  "date": "08 Sep 2026",
+                  "image": "/blog/blogs10.webp",
+                  "imageAlt": "Historic palace architecture in Jodhpur, Rajasthan",
+                  "url": "/blog/local-food-guide",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "A Traveler?s Guide to Finding the Best Local Food",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-local-food-guide-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-local-food-guide-current",
+                        "label": "A Traveler?s Guide to Finding the Best Local Food"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "responsible-travel",
+                  "category": "Responsible Travel",
+                  "title": "Small Ways to Travel More Responsibly",
+                  "description": "Choose local businesses, respect nature and learn about local customs to make your next journey more thoughtful and rewarding.",
+                  "date": "04 Sep 2026",
+                  "image": "/blog/blogs6.webp",
+                  "imageAlt": "Traditional houseboat travelling through Kerala backwaters",
+                  "url": "/blog/responsible-travel",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Small Ways to Travel More Responsibly",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-responsible-travel-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-responsible-travel-current",
+                        "label": "Small Ways to Travel More Responsibly"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "first-time-europe",
+                  "category": "Travel Guides",
+                  "title": "Planning Your First Europe Adventure",
+                  "description": "Build a comfortable itinerary with a mix of famous sights, slower days and practical connections between the places you want to see.",
+                  "date": "31 Aug 2026",
+                  "image": "/blog/blog2.webp",
+                  "imageAlt": "Open road winding through a dramatic desert landscape",
+                  "url": "/blog/first-time-europe",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Planning Your First Europe Adventure",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-first-time-europe-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-first-time-europe-current",
+                        "label": "Planning Your First Europe Adventure"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "mountain-getaway",
+                  "category": "Adventure",
+                  "title": "How to Plan a Relaxing Mountain Getaway",
+                  "description": "Prepare for changing weather, choose a base that suits your pace and leave time to enjoy the views along the way.",
+                  "date": "27 Aug 2026",
+                  "image": "/blog/blogs11.webp",
+                  "imageAlt": "Mountain scenery in the Kashmir Himalayas",
+                  "url": "/blog/mountain-getaway",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "How to Plan a Relaxing Mountain Getaway",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-mountain-getaway-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-mountain-getaway-current",
+                        "label": "How to Plan a Relaxing Mountain Getaway"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "island-hopping",
+                  "category": "Destinations",
+                  "title": "Island-Hopping Tips for a Dreamy Escape",
+                  "description": "Make island transfers simple by checking seasonal schedules, packing light and choosing a route that gives each stop enough time.",
+                  "date": "23 Aug 2026",
+                  "image": "/blog/blogs7.webp",
+                  "imageAlt": "Tropical island resort surrounded by a turquoise lagoon",
+                  "url": "/blog/island-hopping",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Island-Hopping Tips for a Dreamy Escape",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-island-hopping-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-island-hopping-current",
+                        "label": "Island-Hopping Tips for a Dreamy Escape"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "travel-with-kids",
+                  "category": "Family Travel",
+                  "title": "Making Family Trips Easier and More Memorable",
+                  "description": "A relaxed itinerary, familiar comforts and small activities for the journey can help everyone enjoy exploring somewhere new.",
+                  "date": "19 Aug 2026",
+                  "image": "/blog/blogs5.webp",
+                  "imageAlt": "Family-friendly boat ride on Dal Lake in Kashmir",
+                  "url": "/blog/travel-with-kids",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Making Family Trips Easier and More Memorable",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-travel-with-kids-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-travel-with-kids-current",
+                        "label": "Making Family Trips Easier and More Memorable"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "slow-travel",
+                  "category": "Travel Inspiration",
+                  "title": "Why Slow Travel Makes Every Journey Better",
+                  "description": "Spend longer in fewer places, follow local routines and give unexpected discoveries room to become your favorite memories.",
+                  "date": "15 Aug 2026",
+                  "image": "/blog/blogs6.webp",
+                  "imageAlt": "Slow houseboat journey through Kerala backwaters at sunset",
+                  "url": "/blog/slow-travel",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "Why Slow Travel Makes Every Journey Better",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-slow-travel-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-slow-travel-current",
+                        "label": "Why Slow Travel Makes Every Journey Better"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "travel-safety-checklist",
+                  "category": "Travel Tips",
+                  "title": "A Simple Safety Checklist for Every Trip",
+                  "description": "A little preparation with copies of key documents, useful contacts and sensible daily habits can make travel feel more relaxed.",
+                  "date": "11 Aug 2026",
+                  "image": "/blog/blog1.webp",
+                  "imageAlt": "Train travelling across a scenic mountain bridge",
+                  "url": "/blog/travel-safety-checklist",
+                  "authorId": "blog-author-daniel",
+                  "breadcrumb": {
+                    "title": "A Simple Safety Checklist for Every Trip",
+                    "bgImage": "",
+                    "paths": [
+                      {
+                        "id": "breadcrumb-travel-safety-checklist-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "breadcrumb-travel-safety-checklist-current",
+                        "label": "A Simple Safety Checklist for Every Trip"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "popularTitle": "Most",
+              "popularHighlight": "Popular",
+              "popularDescription": "Explore travel guides, tips and real experiences to plan your next adventure. Get inspired with the latest stories from around the world.",
+              "viewAllText": "View All Blogs",
+              "slideLabel": "Show featured blog",
+              "previousSlideLabel": "Previous featured blog",
+              "nextSlideLabel": "Next featured blog",
+              "latestTitle": "Latest",
+              "latestHighlight": "Blogs"
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "PortfolioContact1": {
+              "form": {
+                "eyebrow": "Send Us a Message",
+                "title": "Get In",
+                "titleHighlight": "Touch",
+                "description": "Fill out the form below and we will get back to you as soon as possible.",
+                "nameLabel": "Full Name",
+                "namePlaceholder": "Enter your full name",
+                "emailLabel": "Email Address",
+                "emailPlaceholder": "Enter your email address",
+                "phoneLabel": "Phone Number",
+                "phonePlaceholder": "Enter your phone number",
+                "subjectLabel": "Subject",
+                "subjectPlaceholder": "Select a subject",
+                "subjectOptions": [
+                  {
+                    "id": "subject-travel-question",
+                    "label": "Travel question"
+                  },
+                  {
+                    "id": "subject-destination-guide",
+                    "label": "Destination guide"
+                  },
+                  {
+                    "id": "subject-collaboration",
+                    "label": "Collaboration"
+                  },
+                  {
+                    "id": "subject-other",
+                    "label": "Other"
+                  }
+                ],
+                "messageLabel": "Message",
+                "messagePlaceholder": "Write your message here...",
+                "buttonText": "Send Message",
+                "successMessage": "Thank you. Your message has been submitted successfully."
+              },
+              "contactItems": [
+                {
+                  "id": "contact-info-location",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Location",
+                  "lines": [
+                    {
+                      "id": "contact-location-address",
+                      "text": "123 Main St, New York, NY, USA"
+                    }
+                  ],
+                  "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+                },
+                {
+                  "id": "contact-info-phone",
+                  "icon": "FaPhoneAlt",
+                  "title": "Phone",
+                  "lines": [
+                    {
+                      "id": "contact-phone-number",
+                      "text": "+1 000000000"
+                    }
+                  ],
+                  "url": "tel:+1000000000"
+                },
+                {
+                  "id": "contact-info-email",
+                  "icon": "FaEnvelope",
+                  "title": "Email",
+                  "lines": [
+                    {
+                      "id": "contact-email-address",
+                      "text": "info@xyz.com"
+                    }
+                  ],
+                  "url": "mailto:info@xyz.com"
+                }
+              ],
+              "location": {
+                "mapUrl": "https://www.google.com/maps?q=New+York,+NY,+USA&output=embed",
+                "mapTitle": "Map showing New York, USA"
+              }
+            }
+          }
+        },
+        "MyStory": {
+          "variants": {
+            "PortfolioMyStory1": {
+              "eyebrow": "My Story",
+              "titleLine1": "From a Curious Traveler",
+              "titleHighlight": "to a Content Creator",
+              "description": "My love for travel started with a simple curiosity—a desire to explore new places, meet different people and experience the beauty of our incredible world. What began as personal trips and a small diary of my journeys soon turned into a passion for storytelling.",
+              "descriptionSecondary": "I realized that travel is not just about visiting destinations, but about learning, growing and creating memories that last a lifetime. That is when I decided to start BlogSphere, a platform to share my experiences, travel guides and practical tips with fellow explorers like you.",
+              "imageMain": "/about/4.jpg",
+              "imageMainAlt": "Traveler taking in a mountain lake and valley",
+              "imageSecondary": "/about/story.jpg",
+              "imageSecondaryAlt": "Traveler relaxing beside a tropical beach",
+              "points": [
+                {
+                  "id": "my-story-destinations",
+                  "icon": "FaPlane",
+                  "text": "Explored new destinations around the world"
+                },
+                {
+                  "id": "my-story-documentation",
+                  "icon": "FaCamera",
+                  "text": "Documented real travel stories and experiences"
+                },
+                {
+                  "id": "my-story-community",
+                  "icon": "FaUsers",
+                  "text": "Connected with a community of travel lovers"
+                },
+                {
+                  "id": "my-story-inspiration",
+                  "icon": "FaTrophy",
+                  "text": "Continuing the journey to inspire many more adventures"
+                }
+              ]
+            }
+          }
+        },
+        "MyPurpose": {
+          "variants": {
+            "PortfolioMyPurpose1": {
+              "eyebrow": "My Purpose",
+              "titlePrefix": "Why I Started",
+              "titleHighlight": "BlogSphere",
+              "description": "I created BlogSphere to share my love for travel and help others explore the world with confidence. This platform is a space where you can find honest travel stories, detailed destination guides, useful tips and real experiences to make your journeys more meaningful and memorable.",
+              "items": [
+                {
+                  "id": "purpose-inspire",
+                  "icon": "FaCompass",
+                  "title": "Inspire",
+                  "description": "Motivate you to explore new places and step out of your comfort zone."
+                },
+                {
+                  "id": "purpose-inform",
+                  "icon": "FaBookOpen",
+                  "title": "Inform",
+                  "description": "Share practical travel guides, tips and honest experiences."
+                },
+                {
+                  "id": "purpose-connect",
+                  "icon": "FaUsers",
+                  "title": "Connect",
+                  "description": "Build a community of like-minded travelers and storytellers."
+                }
+              ]
+            }
+          }
+        },
+        "ExploreTogether": {
+          "variants": {
+            "PortfolioExploreTogether1": {
+              "subtitle": "Let's Explore Together",
+              "title": "Every Journey",
+              "highlightedTitle": "Has a Story",
+              "description": "Join me on this journey as we explore amazing destinations, discover new cultures and create unforgettable memories together.",
+              "buttonText": "Read My Blog",
+              "buttonUrl": "/blog",
+              "imageMain": "/about/4.jpg",
+              "imageAlt": "Traveler looking out across a mountain destination"
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "PortfolioTopBar1",
+          "Header": "PortfolioHeader1",
+          "Footer": "PortfolioFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "PortfolioHero1"
+              },
+              {
+                "key": "MostPopular",
+                "component": "MostPopular"
+              },
+              {
+                "key": "LatestBlogs",
+                "component": "LatestBlogs"
+              },
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              },
+              {
+                "key": "MyStory",
+                "component": "MyStory"
+              },
+              {
+                "key": "MyPurpose",
+                "component": "MyPurpose"
+              },
+              {
+                "key": "ExploreTogether",
+                "component": "ExploreTogether"
+              }
+            ]
+          },
+          "faqs": {
+            "components": [
+              {
+                "key": "Faq",
+                "component": "Faq"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "BlogGrids",
+                "component": "BlogGrids"
+              }
+            ]
+          },
+          "blogDetails": {
+            "components": [
+              {
+                "key": "BlogDetail",
+                "component": "BlogDetail"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "Contact"
+              }
+            ]
+          },
+          "notFound": {
+            "components": [
+              {
+                "key": "NotFoundSection",
+                "component": "NotFoundSection"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
